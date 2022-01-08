@@ -1,0 +1,86 @@
+.* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+.left {
+  width: 25%;
+  height: 100vh;
+  background-color: rgb(89, 89, 167);
+  float: left;
+  color: rgb(221, 221, 226);
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.bio {
+  text-align: center;
+}
+.connect-button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+}
+
+.right {
+  width: 75%;
+  height: 100vh;
+  background-color: rgb(166, 166, 226);
+  float: left;
+  overflow: auto;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(141, 59, 218);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  color: whitesmoke;
+}
+
+.container1 h2 {
+  margin: 0;
+}
+
+.abc a {
+  color: white;
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+.abc a:hover {
+  color: black;
+  transition: ease-in-out 500ms;
+}
+
+.content {
+  margin: 30px 10px;
+  color: rgb(39, 35, 35);
+}
+
+@media only screen and (max-width: 500px) {
+  .left {
+    float: none;
+    width: 100%;
+  }
+  .right {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+}
